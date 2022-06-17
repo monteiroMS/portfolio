@@ -1,6 +1,7 @@
 import trybetunes from '../images/trybetunes.png';
 import trybewallet from '../images/trybewallet.png';
 import store from '../images/store.png';
+import trivia from '../images/trivia.png';
 
 const projects = [
   {
@@ -20,6 +21,12 @@ const projects = [
     image: store,
     summary: 'Aplicação construída em grupo utilizando React e React Router. Para organização das tarefas foram utilizadas as metodologias ágeis, como o Kanban. A aplicação consome a API do Mercado Livre e simula toda a experiência de compra de uma loja online.',
     link: 'https://monteiroms.github.io/store',
+  },
+  {
+    name: 'Trivia Game',
+    image: trivia,
+    summary: 'Aplicação construída em grupo utilizando React para a construção da interface, Redux para a manipulação do estado geral da aplicação e consome uma API que retorna as perguntas e respostas. Permite que o jogador configure o jogo como preferir, responda as perguntas e marque pontos e no final possa ver sua classificação no ranking.',
+    link: 'https://monteiroms.github.io/trivia/',
   },
 ];
 

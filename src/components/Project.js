@@ -20,7 +20,8 @@ class Project extends Component {
         <span>
           <h1>{ name }</h1>
           <p>{ summary }</p>
-        </span> 
+        </span>
+        <p className={ styles.goButton }>Ir para a aplicação</p>
       </a>
     );
   }
