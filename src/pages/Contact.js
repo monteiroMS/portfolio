@@ -12,7 +12,7 @@ function Contact({ history: { location: { pathname } } }) {
         <h1>Contato</h1>
         <span>
           <a href="mailto:matheuschran@hotmail.com">E-mail: matheuschran@hotmail.com</a>
-          <p>Telefone: (47) 99642-9380</p>
+          <a href="https://contate.me/monteiro.ms">Telefone: (47) 99642-9380</a>
         </span>
       </span>
       <Footer />
