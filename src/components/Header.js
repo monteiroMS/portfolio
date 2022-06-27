@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles/Header.module.css';
 import github from '../images/github.png';
-import instagram from '../images/instagram.png';
+import whatsapp from '../images/whatsapp.png';
 import linkedin from '../images/linkedin.webp';
 
 function Header({ pathname }) {
@@ -20,13 +20,13 @@ function Header({ pathname }) {
           />
         </a>
         <a
-          href="https://www.instagram.com/m.smonteiro/"
+          href="https://contate.me/monteiro.ms"
           target="_blank"
           rel="noreferrer"
           className={ styles.link }>
           <img
-            src={ instagram }
-            alt="instagram logo"
+            src={ whatsapp }
+            alt="whatsapp logo"
           />
         </a>
         <a
