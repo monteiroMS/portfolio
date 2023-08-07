@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #393b41;
+  height: 90vh
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 100px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.infoContainer h1 {
+  margin: 0;
+}
+
+.infoContainer p {
+  margin-top: 50px;
+  line-height: 25px;
+  max-width: 500px;
+}
+
+.mainTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoContainer h1:nth-of-type(1) {
+  font-size: xxx-large;
+  color: aqua;
+}
+
+.infoContainer h2 {
+  color: white;
+  margin: 0;
+  margin-left: 40px;
+}
+
+.profilePic {
+  border-radius: 100%;
+  width: 350px;
+}
+
+@media screen and (max-width: 700px) {
+  .profilePic {
+    width: 15rem;
+    margin: 0;
+  }
+
+  .content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 0;
+  }
+
+  .infoContainer {
+    width: 100%;
+  }
+
+  .infoContainer h1:nth-of-type(1) {
+    font-size: xxx-large;
+    margin: 0;
+    color: aqua;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .infoContainer h1:nth-of-type(2) {
+    font-size: x-large;
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+
+  .infoContainer h1:nth-of-type(3) {
+    font-size: x-large;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .infoContainer p {
+    line-height: 25px;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}

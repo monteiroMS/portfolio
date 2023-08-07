@@ -1,0 +1,40 @@
+.tech {
+  border-radius: 10px;
+  border: 1px solid aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 100px;
+  box-shadow: -8px 8px teal;
+}
+
+.tech p {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.techLogo {
+  height: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .tech {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .tech p {
+    margin: 0;
+  }
+
+  .techLogo {
+    height: 50px;
+  }
+}
