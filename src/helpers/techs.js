@@ -16,76 +16,88 @@ import java from "../images/java.png";
 import sequelize from "../images/sequelize.png";
 import mongoose from "../images/mongoose.png";
 import python from "../images/python.png";
+import docker from "../images/docker.png";
+import postgres from "../images/postgres.png";
+import mysql from "../images/mysql.png";
+import mongodb from "../images/mongodb.png";
 
 const techs = {
-  frameworks: {
-    front: [
-      {
-        name: "Next.js",
-        image: next,
-      },
-      {
-        name: "Redux",
-        image: redux,
-      },
-      {
-        name: "Material UI",
-        image: materialUI,
-      },
-      {
-        name: "React",
-        image: react,
-      },
-    ],
-    back: [
-      {
-        name: "Nest.js",
-        image: nest,
-      },
-      {
-        name: "Express",
-        image: express,
-      },
-      {
-        name: "Node.js",
-        image: node,
-      },
-      {
-        name: "Sequelize",
-        image: sequelize,
-      },
-      {
-        name: "Mongoose",
-        image: mongoose,
-      },
-    ],
-  },
-  tests: {
-    front: [
-      {
-        name: "Jest",
-        image: jest,
-      },
-      {
-        name: "RTL",
-        image: rtl,
-      },
-    ],
-    back: [
-      {
-        name: "Mocha",
-        image: mocha,
-      },
-      {
-        name: "Chai",
-        image: chai,
-      },
-      {
-        name: "Sinon",
-        image: sinon,
-      },
-    ],
-  },
+  frontend: [
+    {
+      name: "Next.js",
+      image: next,
+    },
+    {
+      name: "Redux",
+      image: redux,
+    },
+    {
+      name: "Material UI",
+      image: materialUI,
+    },
+    {
+      name: "React",
+      image: react,
+    },
+    {
+      name: "Jest",
+      image: jest,
+    },
+    {
+      name: "RTL",
+      image: rtl,
+    },
+  ],
+  backend: [
+    {
+      name: "Nest.js",
+      image: nest,
+    },
+    {
+      name: "Express",
+      image: express,
+    },
+    {
+      name: "Node.js",
+      image: node,
+    },
+    {
+      name: "Sequelize",
+      image: sequelize,
+    },
+    {
+      name: "Mongoose",
+      image: mongoose,
+    },
+    {
+      name: "Mocha",
+      image: mocha,
+    },
+    {
+      name: "Chai",
+      image: chai,
+    },
+    {
+      name: "Sinon",
+      image: sinon,
+    },
+    {
+      name: "Docker",
+      image: docker,
+    },
+    {
+      name: "MySQL",
+      image: mysql,
+    },
+    {
+      name: "PostgreSQL",
+      image: postgres,
+    },
+    {
+      name: "MongoDB",
+      image: mongodb,
+    },
+  ],
   programmingLanguages: [
     {
       name: "TypeScript",

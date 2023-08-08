@@ -21,24 +21,10 @@ function Technologies() {
           <h2>Front-end</h2>
 
           <span className={styles.content}>
-            <span>
-              <p>Frameworks</p>
-
-              <span className={styles.techContainer}>
-                {techs.frameworks.front.map((tech) => (
-                  <Technology key={tech.name} tech={tech} />
-                ))}
-              </span>
-            </span>
-
-            <span>
-              <p>Testes</p>
-
-              <span className={styles.techContainer}>
-                {techs.tests.front.map((tech) => (
-                  <Technology key={tech.name} tech={tech} />
-                ))}
-              </span>
+            <span className={styles.techContainer}>
+              {techs.frontend.map((tech) => (
+                <Technology key={tech.name} tech={tech} />
+              ))}
             </span>
           </span>
         </span>
@@ -47,24 +33,10 @@ function Technologies() {
           <h2>Back-end</h2>
 
           <span className={styles.content}>
-            <span>
-              <p>Frameworks</p>
-
-              <span className={styles.techContainer}>
-                {techs.frameworks.back.map((tech) => (
-                  <Technology key={tech.name} tech={tech} />
-                ))}
-              </span>
-            </span>
-
-            <span>
-              <p>Testes</p>
-
-              <span className={styles.techContainer}>
-                {techs.tests.back.map((tech) => (
-                  <Technology key={tech.name} tech={tech} />
-                ))}
-              </span>
+            <span className={styles.techContainer}>
+              {techs.backend.map((tech) => (
+                <Technology key={tech.name} tech={tech} />
+              ))}
             </span>
           </span>
         </span>
