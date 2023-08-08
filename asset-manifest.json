@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.200c1106.css",
-    "main.js": "/portfolio/static/js/main.6d24fd0d.js",
+    "main.js": "/portfolio/static/js/main.f6c9ab7d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fotoPerfil.png": "/portfolio/static/media/fotoPerfil.95685c09110b24d6d1cd.png",
     "static/media/store.png": "/portfolio/static/media/store.7609b5cdbac417ea2490.png",
@@ -9,6 +9,7 @@
     "static/media/jest.png": "/portfolio/static/media/jest.95bffbbd80a3ba10dfa4.png",
     "static/media/trybewallet.png": "/portfolio/static/media/trybewallet.8d55baa9ddf93ef1ef78.png",
     "static/media/python.png": "/portfolio/static/media/python.904e8152bedf59d94779.png",
+    "static/media/mongoose.png": "/portfolio/static/media/mongoose.cb2f631ca744f23eb8bc.png",
     "static/media/typescript.png": "/portfolio/static/media/typescript.1e3902edbe4c3f2970d8.png",
     "static/media/trybetunes.png": "/portfolio/static/media/trybetunes.b5f8cdd7b44166a033b8.png",
     "static/media/mocha.png": "/portfolio/static/media/mocha.d6c32316dca5fa8282fb.png",
@@ -25,11 +26,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.webp": "/portfolio/static/media/linkedin.2374cf9ffb322047da45.webp",
     "main.200c1106.css.map": "/portfolio/static/css/main.200c1106.css.map",
-    "main.6d24fd0d.js.map": "/portfolio/static/js/main.6d24fd0d.js.map",
+    "main.f6c9ab7d.js.map": "/portfolio/static/js/main.f6c9ab7d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.200c1106.css",
-    "static/js/main.6d24fd0d.js"
+    "static/js/main.f6c9ab7d.js"
   ]
 }
