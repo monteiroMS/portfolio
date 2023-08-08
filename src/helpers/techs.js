@@ -13,6 +13,8 @@ import redux from "../images/redux.png";
 import express from "../images/express.png";
 import node from "../images/node.png";
 import java from "../images/java.png";
+import sequelize from "../images/sequelize.png";
+import mongoose from "../images/mongoose.png";
 import python from "../images/python.png";
 
 const techs = {
@@ -47,6 +49,14 @@ const techs = {
       {
         name: "Node.js",
         image: node,
+      },
+      {
+        name: "Sequelize",
+        image: sequelize,
+      },
+      {
+        name: "Mongoose",
+        image: mongoose,
       },
     ],
   },

@@ -15,7 +15,7 @@ function Home() {
         <span className={styles.infoContainer}>
           <h1>Olá!</h1>
           <h1>Eu sou Matheus Monteiro,</h1>
-          <h1>desenvolvedor Web Full Stack.</h1>
+          <h1>Desenvolvedor Web Full Stack.</h1>
           <p>
             Programo em Typescript e conheço um pouco de Python e Java. Meu
             trabalho é desenvolver soluções que proporcionem boa experiência e
