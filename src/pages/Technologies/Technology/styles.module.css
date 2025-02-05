@@ -7,7 +7,13 @@
   align-items: center;
   padding: 15px;
   width: 100px;
-  box-shadow: -8px 8px teal;
+  box-shadow: -4px 4px rgba(0, 128, 128, 0.4);  /* Sombra inicial */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Transição para a sombra e transformação do card */
+}
+
+.tech:hover {
+  transform: translate(5px, -5px);  /* Move o card para cima e para a direita */
+  box-shadow: -12px 12px rgba(0, 128, 128, 0.8);  /* Sombra se move junto com o card */
 }
 
 .tech p {
@@ -16,8 +22,15 @@
   text-align: center;
 }
 
-.techLogo {
+.techLogoBox {
   height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techLogo {
+  width: 100px;
 }
 
 @media screen and (max-width: 700px) {

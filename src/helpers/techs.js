@@ -20,6 +20,11 @@ import docker from "../images/docker.png";
 import postgres from "../images/postgres.png";
 import mysql from "../images/mysql.png";
 import mongodb from "../images/mongodb.png";
+import vue from "../images/vue.png";
+import bootstrap from "../images/bootstrap.svg";
+import laravel from "../images/laravel.png";
+import php from "../images/php.png";
+import oracle from "../images/oracle.png";
 
 const techs = {
   frontend: [
@@ -36,8 +41,16 @@ const techs = {
       image: materialUI,
     },
     {
+      name: "Bootstrap",
+      image: bootstrap,
+    },
+    {
       name: "React",
       image: react,
+    },
+    {
+      name: "Vue",
+      image: vue,
     },
     {
       name: "Jest",
@@ -52,6 +65,10 @@ const techs = {
     {
       name: "Nest.js",
       image: nest,
+    },
+    {
+      name: "Laravel",
+      image: laravel,
     },
     {
       name: "Express",
@@ -90,6 +107,10 @@ const techs = {
       image: mysql,
     },
     {
+      name: "Oracle",
+      image: oracle,
+    },
+    {
       name: "PostgreSQL",
       image: postgres,
     },
@@ -102,6 +123,10 @@ const techs = {
     {
       name: "TypeScript",
       image: typescript,
+    },
+    {
+      name: "PHP",
+      image: php,
     },
     {
       name: "JavaScript",
