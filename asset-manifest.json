@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.200c1106.css",
-    "main.js": "/static/js/main.18133327.js",
+    "main.css": "/static/css/main.941c78c7.css",
+    "main.js": "/static/js/main.a4e057d8.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/fotoPerfil.png": "/static/media/fotoPerfil.95685c09110b24d6d1cd.png",
     "static/media/store.png": "/static/media/store.7609b5cdbac417ea2490.png",
@@ -13,6 +13,7 @@
     "static/media/postgres.png": "/static/media/postgres.346709d92d82791ad17d.png",
     "static/media/python.png": "/static/media/python.904e8152bedf59d94779.png",
     "static/media/mongoose.png": "/static/media/mongoose.cb2f631ca744f23eb8bc.png",
+    "static/media/php.png": "/static/media/php.9f6c801b300266ace21f.png",
     "static/media/desafioNG.jpeg": "/static/media/desafioNG.ce2513156a666da10faf.jpeg",
     "static/media/typescript.png": "/static/media/typescript.1e3902edbe4c3f2970d8.png",
     "static/media/trybetunes.png": "/static/media/trybetunes.b5f8cdd7b44166a033b8.png",
@@ -21,21 +22,24 @@
     "static/media/react.png": "/static/media/react.1e5639fdfd7c944093d3.png",
     "static/media/sinon.png": "/static/media/sinon.c0ca3204b2956deda0cb.png",
     "static/media/chai.png": "/static/media/chai.3002f262334250cac298.png",
+    "static/media/oracle.png": "/static/media/oracle.da08e5ae56aca2f6b43f.png",
     "static/media/java.png": "/static/media/java.3938fc33085e9c5a4cb7.png",
+    "static/media/laravel.png": "/static/media/laravel.add34ec5d995c188ac4d.png",
     "static/media/nest.png": "/static/media/nest.8d16ffe3a1d5de792236.png",
     "static/media/express.png": "/static/media/express.7a2e473de9afcf0e2fef.png",
     "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.9c1f498f24de6ac5fbf0.png",
     "static/media/mongodb.png": "/static/media/mongodb.2178943141ba7e7fae4e.png",
     "static/media/next.webp": "/static/media/next.864ec59e9c450019ca8a.webp",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.3a162f65200426203695ee878e6b62fb.svg",
     "index.html": "/index.html",
     "static/media/linkedin.webp": "/static/media/linkedin.2374cf9ffb322047da45.webp",
-    "main.200c1106.css.map": "/static/css/main.200c1106.css.map",
-    "main.18133327.js.map": "/static/js/main.18133327.js.map",
+    "main.941c78c7.css.map": "/static/css/main.941c78c7.css.map",
+    "main.a4e057d8.js.map": "/static/js/main.a4e057d8.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.200c1106.css",
-    "static/js/main.18133327.js"
+    "static/css/main.941c78c7.css",
+    "static/js/main.a4e057d8.js"
   ]
 }
